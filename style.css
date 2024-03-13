@@ -1,0 +1,55 @@
+body{
+    background-color: #3a6ea5;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+    margin: 20px 0 20px ;
+}
+
+.link{
+    font: normal 20pt Oswald;
+    font-weight: 900;
+    color: #000000;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 6px 6px 15px;
+}
+
+#fin,#add,#rest{
+    color: white;
+    background-color: #168aad;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 7px 14px;
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+p{
+    font: normal 15pt Oswald;
+    font-weight: 600;
+    color: #0d3b66;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

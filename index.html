@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Analisador</title>
+</head>
+<body>
+    <header>
+        <a class="link" href="">INICIO</a>
+        <a class="link" href="">CONTADOR</a>
+        <a class="link" href="">ANALISADOR</a>
+        <a class="link" href="">VERIFICADOR</a>
+        <a class="link" href="">TABUADA</a>
+        <a class="link" href="">HORAS</a>
+
+        <h1>Analisador de Números</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Número(entre 1 e 100): 
+            <input type="number" name="num" id="num" placeholder="Dígite aqui....">
+            <input type="button" id="add" value="Adicionar" onclick="adicionar()" >
+            <input type="button" id="rest" value="reset" onclick="rest()"></p>
+            <select name="lista" id="lista" size="6"> <option>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</option></select>
+            <br><br><input type="button" value="Finalizar" onclick="finalizar()" id="fin">
+        </div>
+        </div>
+
+        <div id="res">
+          
+        </div>
+    </section>
+
+    <footer><p id="footer">&copy;Henzo padua</p></footer>
+</body>
+<script src="./arquivo.js"></script>
+</html>
